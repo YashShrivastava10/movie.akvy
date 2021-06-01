@@ -13,7 +13,7 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet
 
-my_db = mysql.connector.connect(host= 'movie', user= 'root', password= 'root', buffered= True, port= 3306)
+my_db = mysql.connector.connect(host= 'localhost', user= 'root', password= 'root', buffered= True, port= 3306)
 my_cursor = my_db.cursor()
 
 try:
